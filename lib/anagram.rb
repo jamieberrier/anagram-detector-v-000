@@ -19,7 +19,7 @@ class Anagram
     anagram_array.each do |anagram|
       binding.pry
       if anagram.split("").sort == @word.split("").sort
-        anagram
+        matched_anagrams << anagram
       else
         #something
       end
