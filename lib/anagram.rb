@@ -15,13 +15,14 @@ class Anagram
   # Remember that you can .sort an arrays elements. This will help in your comparison:
   def match(anagram_array)
     matched_anagrams = []
-    
+
     anagram_array.each do |anagram|
       binding.pry
       if anagram.split("").sort == @word.split("").sort
         matched_anagrams << anagram
+        matched_anagrams
       else
-        #something
+        matched_anagrams
       end
     end
   end
