@@ -14,6 +14,8 @@ class Anagram
   # You can compare two arrays using the ==.
   # Remember that you can .sort an arrays elements. This will help in your comparison:
   def match(anagram_array)
+    matched_anagrams = []
+    
     anagram_array.each do |anagram|
       binding.pry
       if anagram.split("").sort == @word.split("").sort
