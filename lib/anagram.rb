@@ -14,8 +14,8 @@ class Anagram
   # You can compare two arrays using the ==.
   # Remember that you can .sort an arrays elements. This will help in your comparison:
   def self.match(anagram_array)
-    anagram_array.collect do |anagram|
-
+    anagram_array.each do |anagram|
+      
     end
   end
 
