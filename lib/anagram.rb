@@ -24,6 +24,7 @@ class Anagram
         matched_anagrams
       end
     end
+  binding.pry
   end
 
 end
