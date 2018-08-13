@@ -16,6 +16,10 @@ class Anagram
   def self.match(anagram_array)
     anagram_array.each do |anagram|
       if anagram.sort == @word.sort
+        #something
+      else
+        #something
+      end
     end
   end
 
