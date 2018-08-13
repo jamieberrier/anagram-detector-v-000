@@ -17,7 +17,7 @@ class Anagram
     anagram_array.each do |anagram|
       binding.pry
       if anagram.split("").sort == @word.split("").sort
-        #something
+        anagram
       else
         #something
       end
