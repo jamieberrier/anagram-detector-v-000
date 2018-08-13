@@ -15,6 +15,7 @@ class Anagram
   # Remember that you can .sort an arrays elements. This will help in your comparison:
   def self.match(anagram_array)
     anagram_array.each do |anagram|
+      pry 
       if anagram.sort == @word.split("").sort
         #something
       else
