@@ -13,7 +13,7 @@ class Anagram
   # Remember that you can split a word into an array of letters using some_word.split("").
   # You can compare two arrays using the ==.
   # Remember that you can .sort an arrays elements. This will help in your comparison:
-  def self.match(anagram_array)
+  def match(anagram_array)
     anagram_array.each do |anagram|
       binding.pry
       if anagram.sort == @word.split("").sort
