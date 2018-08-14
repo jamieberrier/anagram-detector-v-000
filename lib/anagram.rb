@@ -22,5 +22,5 @@ class Anagram
     matched_anagrams
   end
 
-  
+
 end
