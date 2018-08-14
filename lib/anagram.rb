@@ -19,5 +19,5 @@ class Anagram
     anagram_array.each do |anagram|
       anagram.split("").sort == @word.split("").sort ? matched_anagrams << anagram : matched_anagrams
     end
-
+    matched_anagrams
 end
